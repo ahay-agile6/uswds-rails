@@ -13,7 +13,7 @@ A Ruby gem for integrating the [U.S. Web Design System](https://github.com/uswds
 
 Before installing and using uswds-rails, you'll want to have Ruby 2.3.8 (or newer) installed on your computer. There are plenty of ways to go about this, but my preference is [rbenv](https://github.com/sstephenson/rbenv). If you're developing on a Mac and using [Homebrew](http://brew.sh), installing rbenv is [super easy](https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x).
 
-uswds-rails _might_ work with other versions of Ruby, but it's developed in 2.5.3 and automatically tested against 2.3.8, 2.4.5, 2.5.3, and 2.5.3 by [Travis CI](https://travis-ci.org/jgarber623/uswds-rails).
+uswds-rails _might_ work with other versions of Ruby, but it's developed in 2.5.3 and automatically tested against 2.3.8, 2.4.5, and 2.5.3 by [Travis CI](https://travis-ci.org/jgarber623/uswds-rails).
 
 ## Installation
 
@@ -26,7 +26,7 @@ source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
 gem 'rails', '~> 5.2'
-gem 'uswds-rails', '~> 2.0'
+gem 'uswds-rails', '~> 1.6'
 ```
 
 Run `bundle install` to install uswds-rails and its dependencies.
@@ -57,7 +57,7 @@ For details on setting up your development environment and contributing to this 
 
 ## Acknowledgments
 
-This project woudn't exist without the [18F](https://github.com/18F) team's hard work on the [U.S. Web Design System](https://github.com/uswds/uswds).
+This project wouldn't exist without the [18F](https://github.com/18F) team's hard work on the [U.S. Web Design System](https://github.com/uswds/uswds).
 
 uswds-rails is written and maintained by [Jason Garber](https://github.com/jgarber623).
 
