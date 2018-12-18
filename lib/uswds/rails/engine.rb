@@ -1,6 +1,7 @@
 require 'bourbon'
 require 'neat'
 require 'rails-assets-normalize-css'
+require 'autoprefixer-rails'
 
 module Uswds
   module Rails
