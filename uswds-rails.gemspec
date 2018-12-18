@@ -31,4 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'bourbon', '~> 5.1'
   spec.add_runtime_dependency 'neat', '~> 3.0'
   spec.add_runtime_dependency 'rails-assets-normalize-css', '3.0.3'
+  spec.add_runtime_dependency 'autoprefixer-rails', '~> 9.4'
 end
