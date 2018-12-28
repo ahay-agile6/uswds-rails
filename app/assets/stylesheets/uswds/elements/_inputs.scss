@@ -239,8 +239,8 @@ $input-state-border-width: 0.5;
   @media print {
     background-image: none;
     background-color: color('white');
-    content: url('#{$theme-image-path}/correct8-alt.png');
-    content: url('#{$theme-image-path}/correct8-alt.svg');
+    content: asset-url('#{$theme-image-path}/correct8-alt.png');
+    content: asset-url('#{$theme-image-path}/correct8-alt.svg');
     text-indent: 0;
   }
 }

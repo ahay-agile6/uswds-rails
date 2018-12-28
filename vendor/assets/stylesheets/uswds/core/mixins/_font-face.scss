@@ -17,10 +17,10 @@
     font-style: unquote($font-style);
     font-weight: $font-weight;
     src:
-      url(#{$file-path}.eot?#iefix) format('embedded-opentype'),
-      url(#{$file-path}.woff2) format('woff2'),
-      url(#{$file-path}.woff) format('woff'),
-      url(#{$file-path}.ttf) format('truetype');
+      asset-url("#{$file-path}.eot?#iefix") format('embedded-opentype'),
+      asset-url("#{$file-path}.woff2") format('woff2'),
+      asset-url("#{$file-path}.woff") format('woff'),
+      asset-url("#{$file-path}.ttf") format('truetype');
   }
 }
 
